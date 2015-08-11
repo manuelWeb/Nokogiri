@@ -1,0 +1,26 @@
+/* surcharge styleV4.css add height */
+supp, #hpAnimCo { height: 465px; }
+
+/* end surcharge */
+h1, h2, h3, h4, h5 { margin: 0; }
+
+#centralEvent { position: relative; width: 964px; height: 465px; margin: 0; background: url(bg.jpg) no-repeat; }
+
+.btnCata { float: right; margin-top: 0; margin-right: 10px; }
+
+.packContent { margin: 0; padding: 0; list-style: none; }
+.packContent li { position: absolute; top: 2px; }
+.packContent li a { float: left; height: 100%; width: 100%; text-decoration: none; }
+
+.pck1 { left: 12px; width: 270px; height: 250px; }
+
+.pck2 { left: 287px; width: 270px; height: 250px; }
+
+.pck3 { left: 562px; width: 264px; height: 250px; }
+
+.btn-evt { position: absolute; z-index: 1; top: 234px; left: 112px; padding: 0 218px; height: 34px; font: bold 14px/30px Arial, Helvetica, sans-serif; color: #FFFFFF; text-decoration: underline; }
+
+.btn-bg { background-color: #006737; /* Capability css-transitions is prefixed with -moz because 0.60801% of users need it which is more than the threshold of 0.1%. */ /* Creating new -moz context. */ -moz-transition: all 1s ease-out; /* Capability css-transitions is not prefixed with -ms because 0% of users are affected which is less than the threshold of 0.1. */ /* Capability css-transitions is prefixed with -o because 0.10183% of users need it which is more than the threshold of 0.1%. */ /* Creating new -o context. */ -o-transition: all 1s ease-out; /* Capability css-transitions is prefixed with -webkit because 9.62358% of users need it which is more than the threshold of 0.1%. */ /* Creating new -webkit context. */ -webkit-transition: all 1s ease-out; transition: all 1s ease-out; /* Capability css-boxshadow is prefixed with -moz because 0.16452% of users need it which is more than the threshold of 0.1%. */ /* Creating new -moz context. */ -moz-box-shadow: 0 0 5px rgba(0, 0, 0, 0.35); /* Capability css-boxshadow is not prefixed with -ms because 0% of users are affected which is less than the threshold of 0.1. */ /* Capability css-boxshadow is not prefixed with -o because 0% of users are affected which is less than the threshold of 0.1. */ /* Capability css-boxshadow is prefixed with -webkit because 1.6785% of users need it which is more than the threshold of 0.1%. */ /* Creating new -webkit context. */ -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.35); box-shadow: 0 0 5px rgba(0, 0, 0, 0.35); }
+.btn-bg:after { content: ''; position: absolute; bottom: 100%; left: 50%; width: 0; height: 0; margin-left: -10px; border-width: 8px; border-style: solid; border-color: transparent transparent #006737 transparent; /* Capability css-transitions is prefixed with -moz because 0.60801% of users need it which is more than the threshold of 0.1%. */ /* Creating new -moz context. */ -moz-transition: all 1s ease-out; /* Capability css-transitions is not prefixed with -ms because 0% of users are affected which is less than the threshold of 0.1. */ /* Capability css-transitions is prefixed with -o because 0.10183% of users need it which is more than the threshold of 0.1%. */ /* Creating new -o context. */ -o-transition: all 1s ease-out; /* Capability css-transitions is prefixed with -webkit because 9.62358% of users need it which is more than the threshold of 0.1%. */ /* Creating new -webkit context. */ -webkit-transition: all 1s ease-out; transition: all 1s ease-out; }
+.btn-bg:hover { background-color: #98CC0A; }
+.btn-bg:hover:after { border-color: transparent transparent #98CC0A transparent; }

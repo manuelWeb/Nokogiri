@@ -1,0 +1,36 @@
+@import "compass/css3";
+$debug-browser-support: true;
+$arial: Arial, Helvetica, sans-serif;
+/* surcharge styleV4.css add height */
+supp,#hpAnimCo{height: 465px;}
+/* end surcharge */
+h1,h2,h3,h4,h5{margin:0;}
+#centralEvent{position:relative; width:964px; height:465px; margin:0;background: url(bg.jpg) no-repeat;}
+.btnCata{float: right; margin-top: 0; margin-right: 10px;}
+.packContent{
+  margin: 0; padding: 0; list-style: none;
+  li{
+    position: absolute; top: 2px;// border: 1px solid red;
+    a {float: left; height: 100%; width: 100%; text-decoration: none;}
+  }
+}
+.pck1{left:  12px; width: 270px; height: 250px;}
+.pck2{left: 287px; width: 270px; height: 250px;}
+.pck3{left: 562px; width: 264px; height: 250px;}
+.btn-evt{
+	position:absolute; z-index:1; top:234px; left:112px; padding: 0 218px; height:34px;
+	font: bold 14px/30px $arial; color: #FFFFFF; text-decoration: underline;
+}
+.btn-bg{
+	background-color: #006737;
+  @include transition(all 1s ease-out);
+  @include box-shadow(0 0 5px rgba(0,0,0,0.35));
+  &:after{
+    content: '';
+    position: absolute; bottom: 100%; left: 50%; width: 0; height: 0; margin-left: -10px;
+    border-width: 8px; border-style: solid; border-color: transparent transparent #006737 transparent;
+    @include transition(all 1s ease-out);
+  }
+  &:hover {background-color: #98CC0A;}
+  &:hover:after {border-color: transparent transparent #98CC0A transparent;}
+}

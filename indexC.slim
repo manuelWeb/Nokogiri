@@ -1,0 +1,24 @@
+== Slim::Template.new('var.slim').render
+doctype strict
+html
+  head
+    title indexC
+    meta http-equiv="Content-Type" content="text/html;charset=UTF-8"
+    link rel="stylesheet" type="text/css" href="index.css" media="all"
+    / script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"
+
+  body
+    #centralEvent
+      a.btnCata href="http://www.chienchatetcompagnie.com/cat/fr/ECatalog.htm" target="_blank" onclick==$gaq_start+$gaq_Ecata+$gaq_end
+       img.bt-cata src="cat.png" alt="Je demande mon catalogue ! cliquez ici"
+
+      a.btn-evt.btn-bg href==$linkRayEvt onclick==$gaq_start+$gaq_rayon_evt+$gaq_end
+        | > Voir toutes les nouveautés
+
+      ul.packContent
+        li.pck1
+          a href=$pck1_link onclick==$gaq_start+$gaq_pck1+$gaq_end &nbsp;
+        li.pck2
+          a href=$pck2_link onclick==$gaq_start+$gaq_pck2+$gaq_end &nbsp;
+        li.pck3
+          a href=$pck3_link onclick==$gaq_start+$gaq_pck3+$gaq_end &nbsp;
